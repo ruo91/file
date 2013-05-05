@@ -1,1 +1,0 @@
-$(function(){var a=$("#indicator"),c=a.width()/2,b=$("#tabs").children("li");$("#tabs").tabs("#content section",{effect:"fade",fadeOutSpeed:0,fadeInSpeed:250,onBeforeClick:function(g,e){var d=b.eq(e),f=d.position().left+(d.width()/2)-c;a.stop(true).animate({left:f},600,"easeInOutExpo")}})});
