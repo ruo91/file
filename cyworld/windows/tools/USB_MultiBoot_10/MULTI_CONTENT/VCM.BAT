@@ -1,4 +1,0 @@
-SET COMSPEC=C:\DOS\COMMAND.COM
-cd \
-cd vc
-vc
