@@ -1,0 +1,37 @@
+;SetupMgrTag
+[Data]
+UnattendedInstall="No"
+unattendswitch="No"
+MsDosInitiated=1
+floppyless=1
+EulaComplete="1"
+
+
+[GuiUnattended]
+OEMSkipRegional="0"
+OemSkipWelcome=1
+
+[UserData]
+ProductID="C4VBT-84FWB-9VXFR-QKYT6-YG3YT"
+
+[Identification]
+
+[Networking]
+InstallDefaultComponents=Yes
+
+
+;
+; Edited by DriverPacks BASE 8.12.4
+; http://www.driverpacks.net/
+;
+
+
+[GUIRunOnce]
+"binifix4.cmd c:"
+"undoren.cmd"
+;  
+;  Changed by USB_MultiBoot for INSTALL XP from USB
+;  
+	command9="%SystemDrive%\DPsFnshr.exe"
+[SetupParams]
+UserExecute = "ren_fold.cmd"
